@@ -5,7 +5,7 @@
 %define pecl_name xdebug
 
 Name:           php53u-pecl-xdebug
-Version:        2.2.1
+Version:        2.2.2
 Release:        1.ius%{?dist}
 Summary:        PECL package for debugging PHP scripts
 
@@ -127,6 +127,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Mon Mar 25 2013 Ben Harper <ben.harper@rackspace.com> - 2.2.2-1.ius
+- Latest sources from upstream
+
 * Mon Jul 16 2012 Dustin Henry Offutt <dustin.offutt@rackspace.com> 2.2.1-1
 - Latest sources from upstream
 
